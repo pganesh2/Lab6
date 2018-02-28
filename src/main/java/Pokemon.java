@@ -135,7 +135,13 @@ public class Pokemon {
     public void setHitPoints(final int hp) {
         this.hitPoints = hp;
     }
-
+    /**
+     * Sets the hit points to 0.
+     * @param hp the hit points to set our Pokemon's hit points to
+     */
+    public void setHitPointsToZero(final int hp) {
+        this.hitPoints = 0;
+    }
     /**
      * Get the name of the pokemon.
      * @return name the name of the pokemon
